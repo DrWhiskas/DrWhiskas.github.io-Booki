@@ -112,6 +112,10 @@ header nav a
 {
     background-color:#589bff93;
 }
+.filters-choices a
+{
+    margin-left: 15px ;
+}
 
 .filters-choices i
 {
@@ -178,6 +182,7 @@ header nav a
     flex-wrap: wrap;
     justify-content: space-around;
     width: 60%;
+    padding: 10px;
 }
 
 .marseille-card
@@ -204,9 +209,13 @@ header nav a
     width: 100%;
     object-fit: cover;
 }
-.marseille-card h4
+.marseille-card h3
 {
     margin: 0;
+}
+.container
+{
+    margin-left: 10px ;
 }
 
 /********* POPULAR ***************/
@@ -225,7 +234,7 @@ header nav a
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    margin: 15px;
 }  
 .popular-card 
 {
@@ -264,7 +273,7 @@ header nav a
 }
 #activity h4 
 {
-  margin: 4px;
+  margin: 10px;
 }
 
 .colonne
@@ -327,7 +336,7 @@ header nav a
 }
 .colonne-2 .item2 img
 {
-    height: 70%;
+    height: 75%;
 }
 .colonne-4
 {
@@ -353,7 +362,7 @@ header nav a
 }
 .colonne-4 .item1 img
 {
-    height: 80%;
+    height: 70%;
 }
 
 .colonne-4 .item2
