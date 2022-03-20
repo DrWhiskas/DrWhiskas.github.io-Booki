@@ -1,0 +1,161 @@
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        margin: 0px 0px;
+    }
+
+    /**************** HEADER *********************/
+    header nav
+    {
+        flex-direction: column;
+    }
+    header #logo
+    {
+        margin: auto;
+    }
+    header #navigation-bar
+    {
+        /*border: 1px solid red;*/
+        width: 100%;
+        padding : 0px;
+
+     
+    }
+    header ul li
+    {
+        
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+    }
+    header ul li :hover
+    {
+        border-top: none;
+        border-bottom: 2px solid #0065fc;
+    }
+    header a
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    /********************** MAIN ******************/
+    /**************** SEARCH ****************/
+    .normal
+    {
+        display: none;
+    }
+    .mobile
+    {
+        display: block;
+    }
+
+    /************* FILTERS *********/
+    #filters
+    {
+        display: flex;
+        align-items: flex-start;
+    }
+    #filters-title
+    {
+        width: 100%;
+    }
+    .filters-choices
+    {
+        flex-wrap: wrap;
+    }
+  
+    /************* HOSTING **************/
+    #hosting
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #popular
+    {
+        order: 1;
+        width: 100%;
+    }
+    .popular-card
+    {
+        flex-direction: column;
+    }
+    #marseille
+    {
+        flex-direction: column;
+        order: 2;
+        width: 100%;
+        background-color: white;
+
+    }
+    .marseille-card
+    {
+        width: 90%;
+        margin: 10px auto 10px auto;
+
+
+    }
+    /************* ACTIVITY ********************/
+    #activity
+     {
+        flex-direction: column;
+        height: auto;
+        justify-content: space-around;
+     }
+    .colonne
+    {
+        width: 85%;
+        height: 260px;
+        margin: 10px auto 10px auto;    
+    }
+    .colonne img
+    {
+        height: 80%;
+    }
+    .colonne-2
+    {
+        width: 85%;
+        margin: 10px auto 10px auto;
+    }
+    .colonne-2 .item1
+    {
+        height: 260px;
+        margin: 10px;
+        margin: 10px 0 20px 0;
+    }
+    .colonne-2 .item2
+    {
+        height: 260px;
+    }
+    .colonne-2 .item2 img
+    {
+        height: 80%;
+    }
+    .colonne-4
+    {
+        width: 85%;
+        margin: 10px auto 10px auto;
+
+    }
+    .colonne-4 .item1
+    {
+        height: 260px;
+        margin: 10px 0 20px 0;
+
+    }
+    .colonne-4 .item2
+    {
+        height: 260px;
+    }
+    /******* FOOTER **********/
+    #footer-box
+    {
+        flex-direction: column;
+    }
+    .footer-infotmation
+    {
+        margin-left: 40px;
+    }
+
+}

@@ -1,0 +1,398 @@
+body
+{
+    font-family:'Raleway'; 
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+h4
+{
+    font-weight: bolder;
+}
+
+/*********************** HEADER ******************/
+
+header nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li
+{
+    display: inline-block;
+    list-style: none;
+    width: 50%;
+}
+header li :hover
+{
+    color: dodgerblue;
+    border-top: 1px solid dodgerblue;
+}
+
+header nav a
+{
+    padding: 30px;
+}
+/****************************** MAIN **************************/
+/********************* SEARCH *********************/
+
+
+#search-header
+{
+    position: relative;
+}
+#search-main
+{
+    display: flex;
+    align-items: center;
+}
+#search-main .fa-map i
+{
+    padding: 18px 15px;
+    background-color: #f2f2f2;
+    border-radius: 16px 0px 0px 16px;
+}
+#search-main input.search-bar
+{
+    width: 222px;
+    padding: 15px 10px;
+    font-size: medium;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+#search-main button
+{
+    width: auto;
+    padding: 15px 10px;
+    background-color: #0065fc;
+    color: white;
+    border-radius: 0px 16px 16px 0px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.mobile
+{
+    display: none ;
+}
+.normal
+{
+    display: block;
+}
+/************************ FILTERS ***********************/
+
+#filters
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.filters-choices
+{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    border: 1px solid lightgrey;
+    border-left: none;
+    border-radius: 35px;
+    font-weight: bold;
+    padding-right: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.filters-choices:hover
+{
+    background-color:#589bff93;
+}
+
+.filters-choices i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#0065fc;
+    background-color: #deebff;
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+}
+/***************** INFORMATIONS *********/
+#informations
+{
+    display: flex;
+    align-items: center;
+    
+}
+#informations i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#0065fc;
+    border: 2px solid #f2f2f2;
+    height: 20px;
+    width: 20px;
+    border-radius: 16px;
+}
+/*************** HOSTING ****************/
+#hosting
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.title
+{
+    width: 100%;
+    margin-left: 10px;
+}
+
+#marseille, #popular
+{
+    background-color: #f2f2f2;
+    border-radius: 16px;
+}
+.blue
+{
+    color: blue ;
+}
+.grey
+{
+    color: #f2f2f2;
+}
+
+/************ MARSEILLE ************/
+#marseille
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.marseille-card
+{
+    background-color: white;
+    width: 23%;
+    height: auto;
+    min-width: 30%;
+    padding: 6px;
+    border-radius: 15px;
+    margin: 23px 0px 20px 0px;
+    box-shadow: 0px 0px 6px 6px lightgray;
+    transition: transform .2s ease;
+}
+.marseille-card:hover
+{
+    transform: scale(1.03); 
+}
+
+.marseille-card img
+{
+    border-radius: 15px 15px 0px 0px;
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+.marseille-card h4
+{
+    margin: 0;
+}
+
+/********* POPULAR ***************/
+
+#popular
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height:auto;
+    width: 30%;
+    border-radius: 20px;
+}
+.popular-title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}  
+.popular-card 
+{
+    height: auto;
+    margin: 30px ;
+    width: 85%;
+    background-color: white;
+    border-radius: 15px;
+    min-width: 70%;
+    transition: transform .2s ease;
+}
+.popular-card:hover 
+{
+    transform: scale(1.03); 
+}
+.popular-card img
+{
+    padding: 6px 6px ;
+    float: left;
+    height:155px;
+    width: 35%;
+    object-fit: cover;
+    border-radius: 18px 0px 0px 18px;
+}
+
+
+/***************** ACTIVITY *****************/
+#activity
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 600px;
+
+}
+#activity p 
+{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: auto;
+    padding: 10px;
+}
+
+.colonne
+{
+    width: 18%;
+    height: 85%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 6px lightgray;
+}
+.colonne
+{
+    transition: transform .2s ease;  
+}
+.colonne:hover
+{
+    transform: scale(1.03);
+}
+.colonne img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+.colonne-2
+{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 85%;
+    justify-content: space-between;    
+}
+.colonne-2 img
+{
+    width: 100%;
+    object-fit: cover; 
+}
+
+.colonne-2 .item1
+{
+    height: 55%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 6px lightgray;
+    overflow: hidden;
+}
+.colonne-2 .item1 img
+{
+    height: 80%;
+}
+
+.colonne-2 .item2
+{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 6px lightgray;
+    overflow: hidden;
+    height: 35%;
+}
+.colonne-2 .item2 img
+{
+    height: 70%;
+}
+.colonne-4
+{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 85%;
+    justify-content: space-between;
+}
+.colonne-4 img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.colonne-4 .item1
+{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 6px lightgray;
+    overflow: hidden; 
+    height: 45%;
+}
+.colonne-4 .item1 img
+{
+    height: 80%;
+}
+
+.colonne-4 .item2
+{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 6px lightgray;
+    overflow: hidden;
+    height: 45%;
+}
+.colonne-4 .item2 img
+{
+    height: 77%;
+}
+#activity >* a
+{
+    transition: transform .2s ease;
+}
+#activity >* a:hover
+{
+    transform: scale(1.03);
+}
+
+/*** FOOTER ***/
+#footer-box
+{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    background-color: #f2f2f2 ;
+}
+#footer-box ul
+{
+    padding: 0px; 
+}
+#footer-box li
+{
+    list-style: none;
+}

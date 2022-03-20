@@ -1,0 +1,70 @@
+@media screen and (max-width: 992px)
+{
+
+    /********************** MAIN ******************/
+    #hosting
+    {
+        flex-wrap: wrap;
+    }
+    #marseille
+    {
+        width: 100%;
+    }
+
+
+    #popular
+    {
+        width: 100%;
+    }
+    #activity
+     {
+        flex-wrap: wrap;
+        height: auto;
+     }
+    .colonne
+    {
+        width: 90%;
+        height: 260px;
+        margin: 10px auto 10px auto;    
+    }
+    .colonne-2
+    {
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 10px auto 10px auto;
+
+    }
+    .colonne-2 .item1
+    {
+        height: 260px;
+        margin: 10px;
+        margin: 10px 0 20px 0;
+    }
+    .colonne-2 .item2
+    {
+        height: 260px;
+    }
+    .colonne-4
+    {
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 10px auto 10px auto;
+
+    }
+    .colonne-4 .item1
+    {
+        height: 260px;
+        margin: 10px 0 20px 0;
+
+    }
+    .colonne-4 .item2
+    {
+        height: 260px;
+    }
+    /********************** ACTIVITY ******************/
+    #activity p
+    {
+        padding:0px;
+    }
+
+}
