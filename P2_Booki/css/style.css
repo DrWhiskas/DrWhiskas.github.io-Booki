@@ -1,6 +1,7 @@
 body
 {
-    font-family:'Raleway'; 
+    font-family:'Raleway';
+    margin: 0px;
 }
 a
 {
@@ -389,7 +390,7 @@ header nav a
 .footer-information
 {
     margin-left: 45px;
-    width: 100%;
+    width: 50%;
 }
 #footer-box ul
 {
