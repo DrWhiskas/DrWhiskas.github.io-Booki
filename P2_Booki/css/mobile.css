@@ -1,25 +1,28 @@
 @media screen and (max-width: 768px)
 {
-    body
+    header,main
     {
-        margin: 0;
+        padding :0;
     }
-
-    /**************** HEADER *********************/
-    header nav
+     header nav
     {
         flex-direction: column;
     }
-    header #logo
+    #logo
     {
-        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 0 10px ;
+    }
+    #logo img
+    {
+        margin-left: 25%;
+        margin-top: 6%;
     }
     header #navigation-bar
     {
         width: 100%;
         padding : 0px;
-
-     
     }
     header ul li
     {
@@ -37,18 +40,29 @@
         display: flex;
         justify-content: center;
     }
+    /**** SEARCH ****/
+     #search-header
+     {
+         padding: 0 25px;
+     }
 
-    /********************** MAIN ******************/
-    /**************** SEARCH ****************/
-    .normal
-    {
-        display: none;
-    }
-    .mobile
-    {
-        display: block;
-    }
-
+     .mobile
+     {
+         display: block;
+     }
+     .normal
+     {
+         display: none;
+     }
+     #search-main
+     {
+         padding : 10px;
+     }
+     #search-main button
+     {
+         border-radius: 14px;
+         padding: 13px 16px;
+     }
     /************* FILTERS *********/
     #filters
     {
@@ -58,13 +72,18 @@
     #filters-title
     {
         width: 100%;
+        padding: 0 25px;
     }
     .filters-choices
     {
         flex-wrap: wrap;
+        margin: 20px;
     }
-  
-    /************* HOSTING **************/
+    /************* INFORMATIONS *********/
+    #informations
+    {
+        padding : 0 0 0 18px; 
+    }
     #hosting
     {
         flex-direction: column;
@@ -75,6 +94,7 @@
     {
         order: 1;
         width: 100%;
+        border-radius:initial;
     }
     .popular-card
     {
@@ -92,15 +112,17 @@
     {
         width: 90%;
         margin: 10px auto 10px auto;
-
-
     }
-    /************* ACTIVITY ********************/
+    /************* FOOTER *********/
+
+
+    /************* ACTIVITY *********/
     #activity
      {
         flex-direction: column;
         height: auto;
         justify-content: space-around;
+        overflow: hidden;
      }
     .colonne
     {
@@ -147,14 +169,15 @@
     {
         height: 260px;
     }
-    /******* FOOTER **********/
     #footer-box
     {
         flex-direction: column;
+        justify-content: center;
     }
     .footer-information
     {
-        margin-left: 40px;
+        width: 61%;
     }
+ 
 
 }
