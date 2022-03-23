@@ -121,7 +121,6 @@
      {
         flex-direction: column;
         height: auto;
-        justify-content: space-around;
         overflow: hidden;
      }
     .colonne
